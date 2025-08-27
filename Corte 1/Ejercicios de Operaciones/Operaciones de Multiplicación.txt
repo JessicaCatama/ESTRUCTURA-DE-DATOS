@@ -1,0 +1,82 @@
+// 1 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int numero1 = 8;
+    int numero2 = 6;
+    int producto = numero1 * numero2;
+    std::cout << "El producto de " << numero1 << " y " << numero2 << " es: " << producto << std::endl;
+    return 0;
+}
+
+
+
+
+
+// 2 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int numero1 = 8;
+    int numero2 = 6;
+    int numero3 = 9;
+    int producto = numero1 * numero2 * numero3;
+    std::cout << "El producto de " << numero1 << " y " << numero2 << " y " << numero3 << " es: " << producto << std::endl;
+    return 0;
+}
+
+
+
+
+
+// 3 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    double numero1 = 12.5;
+    double numero2 = 3.2;
+    double combinacion = numero1 * numero2;
+    std::cout << "El producto de " << numero1 << " y " << numero2 << " es: " << combinacion << std::endl;
+    return 0;
+}
+
+
+
+
+
+// 4 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int numero1 = 10; 
+    double numero2 = 4.5;
+    double combinacion = numero1 * numero2;
+    std::cout << "El producto de " << numero1 << " y " << numero2 << " es: " << combinacion << std::endl;
+    return 0;
+}
+
+
+
+
+
+// 5 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    double numero1 = 12.5;
+    double numero2 = 3.2;
+    double numero3 = 52.1;
+    double combinacion = numero1 * numero2 * numero3;
+    std::cout << "El producto de " << numero1 << " y " << numero2 << " y " << numero3 << " es: " << combinacion << std::endl;
+    return 0;
+}
