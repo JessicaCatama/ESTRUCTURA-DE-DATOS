@@ -1,0 +1,78 @@
+// 1 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int a;
+    int b;
+    int c;
+        int A;
+cout << "Ingrese el primer numero: ";
+cin >> a;
+cout << "Ingrese el segundo numero: ";
+cin >> b;
+cout << "Ingrese el tercer numero: ";
+cin >> c;
+A = a + b + c;
+cout << A;
+}
+
+
+
+// 2 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int numero1 = 5;
+    int numero2 = 7;
+    int suma = numero1 + numero2;
+    std::cout << "La suma de " << numero1 << " y " << numero2 << " es: " << suma << std::endl;
+    return 0;
+}
+
+
+
+// 3 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int numero1 = 5;
+    int numero2 = 7;
+    int numero3 = 1;
+    int suma = numero1 + numero2 + numero3;
+    std::cout << "La suma de " << numero1 << " y " << numero2 << " y " << numero3 << " es: " << suma << std::endl;
+}
+
+
+
+// 4 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int numero1 = 5;
+    int numero2 = 100;
+    int numero3 = 12000;
+    int numero4 = 8;
+    int suma = numero1 + numero2 + numero3 + numero4;
+    std::cout << "La suma de " << numero1 << " y " << numero2 << " y " << numero3 << " y " << numero4 << " es: " << suma << std::endl;
+}
+
+
+
+// 5 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int numero = 10;
+    std::cout << "El numero es: " << numero << std::endl;
+    return 0;
+}
