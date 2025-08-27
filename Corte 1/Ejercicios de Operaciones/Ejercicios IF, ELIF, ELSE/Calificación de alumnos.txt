@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    double nota1, nota2, nota3;
+    
+    cout << "Introduce la primera nota: ";
+    cin >> nota1;
+    cout << "Introduce la segunda nota: ";
+    cin >> nota2;
+    cout << "Introduce la tercera nota: ";
+    cin >> nota3;
+    
+    // Calcular el promedio
+    double promedio = (nota1 + nota2 + nota3) / 3.0;
+    
+cout << "El promedio es: " << promedio << endl;
+    
+    if (promedio >= 7.0) {
+        cout << "Promocionado" << endl;
+    } else if (promedio >= 4.0 && promedio < 7.0) {
+    cout << "Regular" << endl;
+    } else { // promedio < 4.0
+        cout << "Reprobado" << endl;
+    }
+    
+    return 0;
+}
