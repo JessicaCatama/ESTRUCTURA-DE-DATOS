@@ -1,0 +1,96 @@
+// 1 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    double calificacion1 = 8.5;
+    double calificacion2 = 9.0;
+    double calificacion3 = 7.5;
+    
+    double promedio = (calificacion1 + calificacion2 + calificacion3) / 3.0;
+    
+    std::cout << "El promedio de las calificaciones es: " << promedio << std::endl;
+    
+    return 0;
+}
+
+
+
+
+
+// 2 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int dividendo = 20;
+    int divisor = 6;
+    int resultado_division = dividendo / divisor;
+    std::cout << "El resultado de la division entera de " << dividendo << " entre " << divisor << " es: " << resultado_division << std::endl;
+    return 0;
+}
+
+
+
+
+
+
+// 3 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    double dividendo = 20.0;
+    double divisor = 6.0;
+    double resultado_division = dividendo / divisor;
+    std::cout << "El resultado de la division de " << dividendo << " entre " << divisor << " es: " << resultado_division << std::endl;
+    return 0;
+}
+
+
+
+
+
+// 4 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int a;
+    int b;
+        int A;
+cout << "Ingrese el primer numero: ";
+cin >> a;
+cout << "Ingrese el segundo numero: ";
+cin >> b;
+A = a / b;
+cout << A;
+}
+
+
+
+
+
+// 5 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int a;
+    int b;
+    int c;
+        int A;
+cout << "Ingrese el primer numero: ";
+cin >> a;
+cout << "Ingrese el segundo numero: ";
+cin >> b;
+cout << "Ingrese el tercer numero: ";
+cin >> c;
+A = ( a + b ) / c;
+cout << A;
+}
