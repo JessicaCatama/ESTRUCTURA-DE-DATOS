@@ -1,0 +1,86 @@
+// 1 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int numero = 10;
+    std::cout << "El numero es: " << numero << std::endl;
+    return 0;
+}
+
+
+
+
+
+// 2 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int a;
+    int b;
+    int c;
+        int A;
+cout << "Ingrese el primer numero: ";
+cin >> a;
+cout << "Ingrese el segundo numero: ";
+cin >> b;
+cout << "Ingrese el tercer numero: ";
+cin >> c;
+A = a - b - c;
+cout << A;
+} 
+
+
+
+
+
+// 3 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int numero1 = 5;
+    int numero2 = 7;
+    int resta = numero1 - numero2;
+    std::cout << "La resta de " << numero1 << " y " << numero2 << " es: " << resta << std::endl;
+    return 0;
+}
+
+
+
+
+
+// 4 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int numero1 = 5;
+    int numero2 = 7;
+    int numero3 = 1;
+    int resta = numero1 - numero2 - numero3;
+    std::cout << "La resta de " << numero1 << " y " << numero2 << " y " << numero3 << " es: " << resta << std::endl;
+}
+
+
+
+
+
+// 5 Example program
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int numero1 = 5;
+    int numero2 = 7;
+    int numero3 = 1;
+    int numero4 = 5;
+    int resta = numero1 - numero2 - numero3 - numero4;
+    std::cout << "La resta de " << numero1 << " y " << numero2 << " y " << numero3 << " y " << numero4 << " es: " << resta << std::endl;
+}
