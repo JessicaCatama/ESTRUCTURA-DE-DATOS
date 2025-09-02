@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int edad;
+    
+    cout << "Ingresa la edad: ";
+    cin >> edad;
+    
+    if (hora>=21) {
+        cout << "\nEs mayor de edad\n";
+    } else {
+        cout << "\nEs menor de edad\n";
+    }
+    return 0;
+}
+    

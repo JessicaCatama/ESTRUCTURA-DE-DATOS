@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    double totaldepreguntas, contestadascorrectamente;
+    
+    cout << "Introduce el total de las preguntas: "; 
+    cin >> totaldepreguntas;
+    cout << "Introduce las contestadas correctamente: ";
+    cin >> contestadascorrectamente;
+    
+    double promedio = (contestadascorrectamente/totaldepreguntas)*100;
+    
+    cout << "Cantidad de respuestas correctamente respondidas: " << promedio;
+    
+    if (promedio >= 90) {
+        cout << "\nNivel maximo\n";
+    } else if (promedio >= 75) {
+        cout << "\nNivel medio\n";
+    } else if (promedio >= 50) {
+        cout << "\nNivel regular\n";
+    } else { // promedio < 50
+        cout << "\nFuera de nivel\n";
+    }
+    
+    system("pause");
+    return 0;
+}

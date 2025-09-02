@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int numero;
+
+cout << "Introduce un numero entero: ";
+    cin >> numero;
+    
+if (numero > 0) {
+    cout << "\nPositivo\n";
+    } else if (numero < 0) {
+        cout << "\nNegativo\n";
+    } else {
+        cout << "\nCero/nulo\n";
+    }
+    
+    return 0;
+}
