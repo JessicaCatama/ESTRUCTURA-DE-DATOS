@@ -1,0 +1,49 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int J;
+	cout<<"\t\t\tElija una opción\n\n";
+	cout<<"1 Aries\n";
+	cout<<"2 Tauro\n";
+	cout<<"3 Géminis\n";
+	cout<<"4 Cáncer\n";
+	cout<<"5 Leo\n";
+	cout<<"6 Virgo\n";
+	cout<<"7 Libra\n";
+	cout<<"8 Escorpio\n";
+	cout<<"9 Sagitario\n";
+	cout<<"10 Capricornio\n";
+	cout<<"11 Acuario\n";
+	cout<<"12 Piscis\n";
+	cin>> J;
+	switch(J)
+	{
+		case 1: cout<<"Fuego"<< endl;
+		break;
+		case 2: cout<<"Tierra"<< endl;
+		break;
+		case 3: cout<<"Aire"<< endl;
+		break;
+		case 4: cout<<"Agua"<< endl;
+		break;
+		case 5: cout<<"Fuego"<< endl;
+		break;
+		case 6: cout<<"Tierra"<< endl;
+		break;
+		case 7: cout<<"Aire"<< endl;
+		break;
+		case 8: cout<<"Agua"<< endl;
+		break;
+		case 9: cout<<"Fuego"<< endl;
+		break;
+		case 10: cout<<"Tierra"<< endl;
+		break;
+		case 11: cout<<"Aire"<< endl;
+		break;
+		case 12: cout<<"Agua"<< endl;
+		break;
+		default: cout<<"Error, el número"<< J <<"no está asociado a ningún signo"<< endl;
+	}
+return 0;
+}

@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int J;
+	cout<<"\t\t\tElija una opción\n\n";
+	cout<<"1\n";
+	cout<<"2\n";
+	cout<<"3\n";
+	cout<<"4\n";
+	cout<<"5\n";
+	cout<<"6\n";
+	cout<<"7\n";
+	cin>> J;
+	switch(J)
+	{
+		case 1: cout<<"Lunes"<< endl;
+		break;
+		case 2: cout<<"Martes"<< endl;
+		break;
+		case 3: cout<<"Miércoles"<< endl;
+		break;
+		case 4: cout<<"Jueves"<< endl;
+		break;
+		case 5: cout<<"Viernes"<< endl;
+		break;
+		case 6: cout<<"Sábado"<< endl;
+		break;
+		case 7: cout<<"Domingo"<< endl;
+		break;
+		default: cout<<"El valor"<< J <<"no está en las opciones"<< endl;
+	}
+return 0;
+}
