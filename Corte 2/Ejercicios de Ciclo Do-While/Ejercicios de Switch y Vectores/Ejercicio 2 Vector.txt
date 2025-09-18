@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int numero[5];
+    
+    cout<<"Digita un número: ";
+    cin>> numero[0];
+    cout<<"Digita otro número: ";
+    cin>> numero[1];
+    cout<<"Digita otro número: ";
+    cin>> numero[2];
+    cout<<"Digita otro número: ";
+    cin>> numero[3];
+    cout<<"Digita otro número: ";
+    cin>> numero[4];
+    
+    cout<<"El orden contrario es" << endl;
+    
+    cout<< numero[4]<< endl;
+    cout<< numero[3]<< endl;
+    cout<< numero[2]<< endl;
+    cout<< numero[1]<< endl;
+    cout<< numero[0]<< endl;
+        
+return 0;
+}
